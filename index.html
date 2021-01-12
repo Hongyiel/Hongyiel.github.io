@@ -1,35 +1,4 @@
-<?php
-if(!isset($_SESSION)){
-    session_start();
-}
-
-if(isset($_SESSION["loggedin"])){
-    if ($_SESSION["loggedin"]){
-        $user = $_SESSION["username"];
-    }else{
-        $user = '';
-    }
-}else{
-    $user = '';
-}
-
-
-    // Include config file
-    require_once "connectvars.php";
-
-    $query = "SELECT Nick_name FROM THE_USER WHERE U_ID = '$user'";
-
-    // Get results from query
-    $result = mysqli_query($link, $query);
-    if (!$result) {
-        die("Query to show fields from table failed(Temporary)");
-    }
-    $row = mysqli_fetch_array($result);
-
-?>
-
 <!DOCTYPE html>
-<?php include 'header.php'; ?>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
