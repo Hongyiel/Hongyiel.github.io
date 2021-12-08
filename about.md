@@ -6,14 +6,14 @@ redirect_from: /about.html
 ---
 
 ## Hi there 👋
-Introduce your self
-I`m NrdyBhu1
+
+My name is Hongyiel Suh
+I study in Computer science student in artificial intellgence
 
 # About Me
-Tell more about your self
-I am a passionate game dev 👨🏻‍💻 and i learnt many languages only to make games.
 
-Talk about your projects
+I am passionate in Machine learnging and interested in natural language processing.
+
 # My first project
 My first project was a prototype which was unfinished but still it was a game.
 
@@ -22,9 +22,9 @@ Link your social accounts
 [Itch.io](#) \
 [Patreon](#) \
 [Youtube](#) \
-[My Website](#) \
-[Gmail](#) \
-[Github](#)
+[My Website](#https://hongyiel.github.io/) \
+[Linkedin](#https://www.linkedin.com/in/hongyiel-suh-34554218a/) \
+[Github](#https://github.com/Hongyiel)
 
 Show your github Stats
 # Stats
